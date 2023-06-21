@@ -25,6 +25,12 @@ CSS SITEMAP >>>>
 01. GENERAL CSS
 ================================================*/
 
+@font-face {
+  font-family: 'CustomFont';
+  src: url('Bbt-YXB8.ttf') format('truetype'); /* Replace 'path/to/font-file.ttf' with the actual path to your font file */
+}
+
+
 html,
 body {
   -webkit-font-smoothing: antialiased;
@@ -88,6 +94,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'CustomFont', Arial, Helvetica, sans-serif;
   line-height: 1.2;
   margin: 0 0 20px;
   font-weight: 600;
